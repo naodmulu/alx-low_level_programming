@@ -1,4 +1,4 @@
-#inculde "main.h"
+#include "main.h"
 /**
  * print_alphabet_x10 - prints alphabet, in lower case, followed by new line, ten times
  * Return: null
@@ -15,4 +15,3 @@ void print_alphabet_x10(void);
 		_putchar('\n');
 	}
 }
-
