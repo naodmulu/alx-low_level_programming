@@ -1,11 +1,13 @@
 #include "main.h"
 /**
- * main - multiply two integers
- * int a and int b stored
- * Return : a * b
+ * mul - returns the product of its parameters
+ * @a: int type number
+ * @b: int type number
+ * Return:0
  */
+
+
 int mul(int a, int b)
 {
-	int c = a * b;
-	return (c);
+return (a * b);
 }
