@@ -1,18 +1,10 @@
 #include "main.h"
-#include <stdio.h>
-
 /**
- * main - check the code.
- *
- * Return: Always 0.
+ * _isupper - Entry Point
+ * @c : the checked character
+ * Return:1 0r 0
  */
-int main(void)
+int _isupper(int c)
 {
-	char c;
-
-	c = 'A';
-	printf("%c: %d\n", c, _isupper(c));
-	c = 'a';
-	printf("%c: %d\n", c, _isupper(c));
-	return (0);
+	return (((c > 64 && c < 91)) ? 1 : 0);
 }
