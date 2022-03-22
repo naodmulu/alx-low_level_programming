@@ -1,10 +1,10 @@
 #include "main.h"
 
 /**
- * main : Updates int parameter to 98
- * Return: int n
+ * reset_to_98 - sets any variable to 98
+ * @n: a string pointing to the memory location to be updated
+ * Return: void
  */
-
 void reset_to_98(int *n)
 {
 	*n = 98;
