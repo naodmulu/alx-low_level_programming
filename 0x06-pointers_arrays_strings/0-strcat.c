@@ -1,6 +1,7 @@
 #include "main.h"
 
 /**
+<<<<<<< HEAD
  * _strcat - concatenates two strings
  * @dest: string to append to
  * @src: string to add
@@ -25,6 +26,4 @@ char *_strcat(char *dest, char *src)
 	}
 
 	dest[i] = '\0';
-
-	return (dest);
 }
